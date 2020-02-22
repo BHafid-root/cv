@@ -1,9 +1,177 @@
 <!DOCTYPE html>
+
 <html>
-	<head>
-	</head>
-	<body>
-		<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
-	</body>
+
+    <head>        
+        <meta charset="utf-8">
+        <title> Mon CV </title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="CV.css">        
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="container">
+
+        <nav> 
+            <div class="dropdown">
+
+                <a href="#CT" class="text-decoration-none">Compétences Techniques</a>                
+                <a href="#EP" class="text-decoration-none">Expérience Professionnelle</a>
+                <a href="#F"  class="text-decoration-none">Formation</a>   
+                <a href="#C"  class="text-decoration-none">Contact</a>  
+            
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Autres Infos
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#Lo">Langages</a>   
+                    <a class="dropdown-item" href="#La">Langues</a> 
+                    <a class="dropdown-item" href="#CI">Center d'intérêt</a>                              
+                </div> 
+            </div>                       
+               
+        </nav>  
+        <header class="row entete" > 
+
+            <div class="col-9">
+                <h1>    Abdelkrim BOURAZI  </h1>
+                <h3>    Ingénieur en Développement informatique </h3>
+                <hr>            
+                <p> A la recherche d’un stage de fin d’études de 5 mois à partir de 15 Mars  </p>            
+            </div>
+        </header>
+        <div class="row">
+
+            <aside class="col-3 info_perso" > 
+                <section id="Lo">
+                    <h4>    Langages    </h4>         
+                    <ul class="SansPuce"> 
+                        <li>    Langage C/C++, Python, JAVA, Shell   </li>
+                        <li>    HTML5 / CSS3, Node JS   </li>
+                        <li>    VS code,  Eclipse  </li>
+                    </ul>                   
+                </section>
+                <section id="La">
+                    <h4>    Langues    </h4>    
+                    <ul class="SansPuce">
+                        <li>    Anglais : intermédiaire     </li>
+                        <li>    Arabe : Langue Maternelle   </li>
+                    </ul>              
+                </section>
+                <section id="CI">
+                    <h4>    Centres d'intrêt    </h4>    
+                    <ul class="SansPuce">
+                        <li>    Film documentaire  </li>
+                        <li>    Mots fléchés       </li>
+                        <li>    Bricolage   </li>
+                        <li>    Voyage  </li>
+                    </ul>              
+                </section>
+                <section id="C">
+                    <h4>    Contact   </h4>                    
+                    <address>                   
+                        2 Rue Soeur Bouvier<br> 
+                        Résidence Universitaire André Allix<br> 
+                        69005 Lyon<br>
+                        <a href="mailto:bourazi.abdelkrim@gmail.com">Envoyer un mail à Monsieur BOURAZI</a> <br>
+                        <a href="tel:+33658855615">+33 6 58 85 56 15</a> <br>
+                        <a href="https://www.linkedin.com/in/abdelkrim-bourazi-227a95101/" target="_blank">Linkedin</a> <br>
+
+                    </address>
+                </section>
+            </aside> 
+            
+            <div class="col Corps_CV"> 
+
+                <div class="row bloc_competence">
+
+                    <section class="col" id="CT">
+                        <h3>    Compétences Technique   </h3>
+                        <ul>
+                            <li>    Compétences SI pour la gestion  </li>
+                            <li>    Base de données (SQL/PostgreSQL)         </li>
+                            <li>    Entrepôt de données (Power BI)  </li>
+                            <li>    Sécurité des SI </li>
+                            <li>    Systèmes d'information (Merise, UML)  </li>
+                            <li>    Systèmes d'exploitation (Unix , Linux, Ubuntu))  </li>
+                            <li>    Image (VRML)  </li>
+                        </ul>
+                        <h5>    Projet  JAVA    </h5>
+                        <p>     Réalisation d’une interface graphique sous Eclipse pour simuler un monde de Robot (plusieurs types de robot) dans un environnement 2D.      </p>
+                    </section>
+                </div>
+
+                <hr>
+
+                <div class="row bloc_experience">
+
+                    <div class="col">
+                        <div class="row">
+
+                            <section class="col" id="EP">
+                                <h3>    Expérience Professionnelle  </h3>
+                            </section>
+                        </div>
+                        <div class="row">
+
+
+                            <section class="col">
+                                <h5>    Enquêteur (Beaune) chez ESSEC Solutions Entreprises </h5>
+                                <ul>
+                                    <li > <b>Mission Orange :  </b> Récolter des données factuelles et objectif sur le terrain. (10/2019-10/2019) </li>
+                                </ul>
+                            </section>
+
+                        </div>
+                        <div class="row">
+                           
+                            <section class="col" >
+
+                                <h5>    Ingénieur stagiaire en Électronique chez OniriQ   </h5>
+        
+                                <ul>
+                                    <li> <b>  Projet Kit solaire :  </b>  valorisation de la chaleur fatale des data centers. (03/2019-06/2019)  </li>
+                                </ul>
+
+                            </section>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr>
+                
+                <div class="row bloc_formation">
+
+                    <div class="col">
+                        <div class="row">
+                            <section class="col" id="F">
+                                <h3> Formation </h3>
+                            </section>
+                        </div>
+                        <div class="row">
+                            <section class="col">                            
+                                <p>    Master 2 Compétence complémentaire en informatique à l’université Lyon 1 (2019-2020)   </p>                                     
+                            </section>
+                        </div>
+                        <div class="row">
+                            <section class="col">
+                                <p>    Master 2 EEA parcours Électronique  à l’université de Dijon (2017-2019) </p>          
+                            </section>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+    
 </html>
